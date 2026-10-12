@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.githubprofile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-direction: column-reverse;
+    padding: 75px 0px;
+}
+
+.githubprofile img {
+    border-radius: 50%;
+}
